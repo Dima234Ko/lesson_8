@@ -15,6 +15,11 @@ module.exports = {
       filename: "index.html",
       template: "src/index.html",
     }),
+    new HtmlWebpackPlugin({
+      filename: 'java.html',
+      template: './src/java.html',
+      chunks: ['main'],
+    }),
   ],
   module: {
     rules: [

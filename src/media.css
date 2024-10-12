@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .columns article {
+      flex-basis: 45%;
+    }
+    .blocks article {
+      flex-basis: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .columns article {
+      flex-basis: 90%;
+    }
+    .blocks article {
+      flex-basis: 90%;
+    }
+  }
