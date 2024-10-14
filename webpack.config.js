@@ -16,14 +16,14 @@ module.exports = {
       template: "src/index.html",
     }),
     new HtmlWebpackPlugin({
-      filename: 'java.html',
-      template: './src/java.html',
-      chunks: ['main'],
+      filename: "java.html",
+      template: "./src/java.html",
+      chunks: ["main"],
     }),
     new HtmlWebpackPlugin({
-      filename: 'chat.html',
-      template: './src/chat.html',
-      chunks: ['main'],
+      filename: "chat.html",
+      template: "./src/chat.html",
+      chunks: ["main"],
     }),
   ],
   module: {
@@ -31,7 +31,7 @@ module.exports = {
       {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
-        include: path.resolve(__dirname, 'src'),
+        include: path.resolve(__dirname, "src"),
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,

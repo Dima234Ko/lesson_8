@@ -1,31 +1,30 @@
 header {
-    width: 100vw;
-    background-color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-  }
-  
-  header figure {
-    align-items: center;
-    display: flex;
-  }
-  
-  header img {
-    width: 10vw;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: 20px;
-  }
-  
-  header figcaption {
-    margin-bottom: 10px;
-  }
-  
-  .header p {
-    font-size: 12px;
-    margin-bottom: 20px;
-  }
-  
+  width: 100vw;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header figure {
+  align-items: center;
+  display: flex;
+}
+
+header img {
+  width: 10vw;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+header figcaption {
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
