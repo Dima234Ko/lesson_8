@@ -20,6 +20,11 @@ module.exports = {
       template: './src/java.html',
       chunks: ['main'],
     }),
+    new HtmlWebpackPlugin({
+      filename: 'chat.html',
+      template: './src/chat.html',
+      chunks: ['main'],
+    }),
   ],
   module: {
     rules: [
