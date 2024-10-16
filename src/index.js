@@ -15,19 +15,19 @@ document.addEventListener("DOMContentLoaded", () => {
   const carousel = new Carousel(carouselElement);
 });
 
-import img from "../img/otus.png";
-import img2 from "../img/carusel1.png";
-import img3 from "../img/carusel2.png";
-import img4 from "../img/carusel3.png";
+import img1 from "../img/carusel1.png";
+import img2 from "../img/carusel2.png";
+import img3 from "../img/carusel3.png";
+import imgLogo from "../img/otus.png";
 
-const image = document.querySelector("#logo");
-image.src = img;
+const imageLogo = document.querySelector("#imageLogo");
+imageLogo.src = imgLogo;
+
+const image1 = document.querySelector("#image1");
+image1.src = img1;
 
 const image2 = document.querySelector("#image2");
 image2.src = img2;
 
 const image3 = document.querySelector("#image3");
 image3.src = img3;
-
-const image4 = document.querySelector("#image4");
-image4.src = img4;

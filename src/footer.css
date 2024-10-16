@@ -3,3 +3,8 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
+footer img {
+  width: 80px;
+  height: 40px;
+}
