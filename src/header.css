@@ -1,7 +1,7 @@
 header {
   width: 100vw;
+  height: 7vw;
   background-color: #fff;
-  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@ header figure {
 }
 
 header img {
-  width: 10vw;
+  width: 13vw;
   object-fit: cover;
   border-radius: 10px;
   margin-left: auto;

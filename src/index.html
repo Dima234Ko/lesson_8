@@ -9,7 +9,7 @@
   <body>
     <header>
       <figure>
-        <img src="img.default" alt="Image description" />
+        <img id="logo" alt="First Image" />
         <figcaption>
           <p>Авторские онлайн‑курсы для профессионалов</p>
           <p>Цифровые навыки от ведущих экспертов</p>
@@ -18,18 +18,50 @@
     </header>
 
     <main>
+      <div id="carouselExample" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-inner list-unstyled">
+          <li class="carousel-item active">
+            <img id="image2" alt="Image" />
+          </li>
+          <li class="carousel-item">
+            <img id="image3" alt="Image" />
+          </li>
+          <li class="carousel-item">
+            <img id="image4" alt="Image" />
+          </li>
+        </ul>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExample"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Предыдущий</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExample"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Следующий</span>
+        </a>
+      </div>
+
       <section>
         <div class="columns">
           <article>
             <a href="java.html"><h2>Java-разработчик</h2></a>
             <p>
               Специализация подойдет всем желающим, кто хочет освоить новую
-              профессию Java-разработчика с нуля Подойдет тем, кто еще не
-              определился с языком программирования Для тех, кто работает
+              профессию Java-разработчика с нуля. Подойдет тем, кто еще не
+              определился с языком программирования. Для тех, кто работает
               сисадмином, тестировщиком, аналитиком или специалистом технической
-              поддержки и хочет стать частью команды разработчиков Для тех, кто
+              поддержки и хочет стать частью команды разработчиков. Для тех, кто
               хочет с нуля освоить программирование для решения собственных
-              задач
+              задач.
             </p>
           </article>
           <article>
@@ -46,7 +78,7 @@
             <h2>Node.js Developer</h2>
             <p>
               Разработка серверных приложений на Node.js с использованием
-              Express, TypeScript, GraphQl, Apollo и Nest.js Знания помогут
+              Express, TypeScript, GraphQl, Apollo и Nest.js. Знания помогут
               расширить арсенал инструментов для работы с бэкэндом на основе
               JavaScript.
             </p>
@@ -62,30 +94,32 @@
           <article>
             <h2>Интерактивные вебинары</h2>
             <p>
-              2 онлайн-трансляции по 2 ак.часа в неделю. Доступ к записям и
-              материалам остается навсегда
+              2 онлайн-трансляции по 2 ак. часа в неделю. Доступ к записям и
+              материалам остается навсегда.
             </p>
           </article>
           <article>
             <h2>Практика</h2>
             <p>
               Домашние задания + проектная работа, для усиления вашего портфолио
-              и компетенций
+              и компетенций.
             </p>
           </article>
           <article>
             <h2>Сертификат о прохождении курса</h2>
             <p>
               OTUS осуществляет лицензированную образовательную деятельность. В
-              конце обучения вы получите сертификат OTUS о прохождении курса
+              конце обучения вы получите сертификат OTUS о прохождении курса.
             </p>
           </article>
         </div>
       </section>
     </main>
-  </body>
 
-  <footer>
-    <p>&copy; Главная</p>
-  </footer>
+    <footer>
+      <p>&copy; Главная</p>
+    </footer>
+
+    <script type="module" src="index.js"></script>
+  </body>
 </html>

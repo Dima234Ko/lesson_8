@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Карусель Bootstrap</title>
+    <link
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-inner list-unstyled">
+        <li class="carousel-item active">
+          <img
+            src="../img/carusel1.png"
+            class="d-block w-100"
+            alt="Первый слайд"
+          />
+        </li>
+        <li class="carousel-item">
+          <img
+            src="../img/carusel2.png"
+            class="d-block w-100"
+            alt="Первый слайд"
+          />
+        </li>
+        <li class="carousel-item">
+          <img
+            src="../img/carusel3.png"
+            class="d-block w-100"
+            alt="Первый слайд"
+          />
+        </li>
+      </ul>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExample"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Предыдущий</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExample"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Следующий</span>
+      </a>
+    </div>
+
+    <script src="carusel.js"></script>
+  </body>
+</html>
