@@ -1,17 +1,39 @@
 @media (max-width: 768px) {
-  .columns article {
-    flex-basis: 45%;
+  body {
+    padding: 10px;
   }
-  .blocks article {
-    flex-basis: 45%;
-  }
-}
 
-@media (max-width: 480px) {
-  .columns article {
-    flex-basis: 90%;
+  header {
+    height: auto;
   }
+
+  .columns article {
+    flex-basis: 100%;
+    margin: 10px 0;
+  }
+
+  .blocks {
+    flex-direction: column;
+  }
+
   .blocks article {
-    flex-basis: 90%;
+    flex-basis: 100%;
+    margin: 10px 0;
+  }
+
+  /* Стили для карусели */
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer img {
+    width: 50%;
+    max-width: 200px;
   }
 }

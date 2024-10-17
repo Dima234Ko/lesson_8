@@ -21,8 +21,18 @@ module.exports = {
       chunks: ["main"],
     }),
     new HtmlWebpackPlugin({
+      filename: "system.html",
+      template: "./src/system.html",
+      chunks: ["main"],
+    }),
+    new HtmlWebpackPlugin({
       filename: "chat.html",
       template: "./src/chat.html",
+      chunks: ["main"],
+    }),
+    new HtmlWebpackPlugin({
+      filename: "node.html",
+      template: "./src/node.html",
       chunks: ["main"],
     }),
   ],
